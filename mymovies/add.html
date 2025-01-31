@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/movie.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>MyMovies</h1>
+        <ul>
+        <div class="pages">
+            <li><a href="/acceuill.html" class="accueil">Accueil</a></li>
+            <li><a href="/add.html" class="add">Ajouter</a></li>
+            <li><a href="/Détails.html" class="more">Détails</a></li>
+        </div>
+        </ul>
+    </div>
+    </nav>
+    <form class="form">
+      <p class="title">Ajouter un film</p>
+
+          <label>
+              <input class="input" type="text" placeholder="" required="" id="nom">
+              <span>Nom du film</span>
+          </label>
+
+
+      <label>
+          <input class="input" type="text" placeholder="" required=""  id="realisateur">
+          <span>Réalisateur</span>
+      </label>   
+      <label>
+          <input class="input" type="text" placeholder="" required=""  id="annee">
+          <span>Année de sortie</span>
+      </label>
+
+     
+      <label for="recipeCategory" class="form-label" id="genre"></label>
+                <select class="form-select" id="recipeCategory" required>
+                    <option value="Entée">Action</option>
+                    <option value="Plat-Principal">drama</option>
+                    <option value="Dessert">fantasy</option>
+                    <option value="Entée">action</option>
+                    <option value="Plat-Principal">drama</option>
+                    <option value="Dessert">fantasy</option>
+                </select>
+    <label>
+        <input class="input" type="url" placeholder="" required="" id="image">
+        <span>image(url)</span>
+    </label>
+
+     
+<div id="ajo">
+      <button class="add-but" id="butn">AJOUTER</button>
+    </div>
+  </form>
+
+<script src="movie.js"></script>
+</body>
+</html>
